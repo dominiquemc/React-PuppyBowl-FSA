@@ -26,9 +26,37 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  border: 1px solid red;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: #141528;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-family: "Monoton", cursive;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #ffffff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 35px;
+  background-color: rgb(207, 129, 94);
+  border: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(235, 119, 65);
 }
