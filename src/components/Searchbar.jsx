@@ -1,10 +1,14 @@
 export default function Searchbar({ setSearch }) {
   return (
-    <input
-      type="search"
-      placeholder="Search here"
-      onChange={(e) => setSearch(e.target.value)}
-    />
+    <>
+      <h3>Search for a player</h3>
+      <input
+        type="search"
+        className="searchbar"
+        placeholder="Enter exact name"
+        onChange={(e) => setSearch(e.target.value)}
+      />
+    </>
   );
 }
 
