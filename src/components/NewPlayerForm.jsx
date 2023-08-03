@@ -87,7 +87,7 @@ export default function NewPlayer() {
         </label>
 
         <label>
-          Team ID:{" "}
+          Team ID:
           <input
             type="number"
             name="teamId"
@@ -96,6 +96,7 @@ export default function NewPlayer() {
             onChange={(e) => setNewTeamId(e.target.value)}
           />
         </label>
+
         <button type="submit">Submit</button>
       </form>
     </div>
